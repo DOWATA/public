@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dm:diff xmlns:dm="http://www.locus.cz/diffmark">
+  <cart>
+    <items>
+      <item data-type="2" dm:update="item">
+        <dm:copy count="1"/>
+      </item>
+      <dm:delete>
+        <item/>
+        <item/>
+      </dm:delete>
+      <dm:copy count="1"/>
+      <dm:insert>
+        <item>パイナップル</item>
+      </dm:insert>
+    </items>
+  </cart>
+</dm:diff>

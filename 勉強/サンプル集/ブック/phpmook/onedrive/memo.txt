@@ -1,0 +1,10 @@
+
+インストール方法
+-------------
+
+https://github.com/lovattj/php-skydrive.git
+
+OneDrive APIキーの発行
+---------------------
+
+1.http://msdn.microsoft.com/ja-jp/live/

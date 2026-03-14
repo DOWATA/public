@@ -1,0 +1,7 @@
+Loading composer repositories with package information
+Initializing PEAR repository http://pear.cakephp.org
+Installing dependencies (including require-dev)
+  - Installing pear-pear.cakephp.org/cakephp (2.4.6)
+    Downloading: connection...    Downloading: 0%               Downloading: 5%    Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 35%    Downloading: 40%    Downloading: 45%    Downloading: 50%    Downloading: 55%    Downloading: 60%    Downloading: 65%    Downloading: 70%    Downloading: 75%    Downloading: 85%    Downloading: 90%    Downloading: 95%    Downloading: 100%    Downloading: 100%
+Writing lock file
+Generating autoload files

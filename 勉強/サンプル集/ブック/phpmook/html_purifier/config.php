@@ -1,0 +1,7 @@
+<?php
+require_once 'libs/HTMLPurifier.auto.php';
+
+$config = HTMLPurifier_Config::createDefault();
+$config->set('HTML.AllowedElements', array('a', 'ul', 'li', 'b'));
+$pur = new HTMLPurifier($config);
+print $pur->purify(file_get_contents('dirty.html'));

@@ -1,0 +1,10 @@
+Feb 26 23:29:22 phpmook [info] 情報
+Feb 26 23:29:22 phpmook [debug] デバッグ
+Feb 26 23:30:07 phpmook [emergency] 緊急
+Feb 26 23:30:07 phpmook [alert] 至急対応
+Feb 26 23:30:07 phpmook [critical] 致命的
+Feb 26 23:30:07 phpmook [error] エラー 
+Feb 26 23:30:07 phpmook [warning] 警告
+Feb 26 23:30:07 phpmook [notice] 注意
+Feb 26 23:30:07 phpmook [info] 情報
+Feb 26 23:30:48 phpmook [info] 情報

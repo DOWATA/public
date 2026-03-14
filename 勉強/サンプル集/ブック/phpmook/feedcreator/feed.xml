@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://www.wings.msn.to/contents/rss.php">
+        <title>サーバーサイド技術の学び舎（WINGSプロジェクト）</title>
+        <description>プログラミングに関する最新記事を提供</description>
+        <link>http://www.wings.msn.to/</link>
+        <image rdf:resource="http://www.wings.msn.to/image/wings.jpg" />
+       <dc:date>2014-03-05T15:20:26+09:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://www.buildinsider.net/web/jquerymobileref"/>
+                <rdf:li rdf:resource="http://codezine.jp/article/corner/490"/>
+                <rdf:li rdf:resource="http://www.buildinsider.net/web/jqueryuiref"/>
+                <rdf:li rdf:resource="http://codezine.jp/article/corner/486"/>
+                <rdf:li rdf:resource="http://codezine.jp/article/corner/484"/>
+                <rdf:li rdf:resource="http://www.atmarkit.co.jp/ait/articles/1303/08/news072.html"/>
+                <rdf:li rdf:resource="http://thinkit.co.jp/book/2012/05/18/3548"/>
+                <rdf:li rdf:resource="http://thinkit.co.jp/book/2012/04/17/3517"/>
+                <rdf:li rdf:resource="http://thinkit.co.jp/book/2012/04/12/3514"/>
+                <rdf:li rdf:resource="http://www.atmarkit.co.jp/ait/subtop/features/dotnet/app/jqmobile_index.html"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://www.wings.msn.to/image/wings.jpg">
+        <title>WINGSプロジェクト</title>
+        <link>http://www.wings.msn.to/</link>
+        <url>http://www.wings.msn.to/image/wings.jpg</url>
+    </image>
+    <item rdf:about="http://www.buildinsider.net/web/jquerymobileref">
+        <dc:format>text/html</dc:format>
+        <dc:date>2014-01-09T00:00:00+09:00</dc:date>
+        <dc:creator>山田祥寛</dc:creator>
+        <title>jQuery Mobile逆引きリファレンス</title>
+        <link>http://www.buildinsider.net/web/jquerymobileref</link>
+        <description>目的別に引けるjQuery Mobileのリファレンス記事です。</description>
+    </item>
+    <item rdf:about="http://codezine.jp/article/corner/490">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-07-22T00:00:00+09:00</dc:date>
+        <dc:creator>coltware</dc:creator>
+        <title>PHPエクステンションの作り方</title>
+        <link>http://codezine.jp/article/corner/490</link>
+        <description>PHPのエクステンションを作成する方法を紹介していきます。</description>
+    </item>
+    <item rdf:about="http://www.buildinsider.net/web/jqueryuiref">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-07-11T00:00:00+09:00</dc:date>
+        <dc:creator>山田祥寛</dc:creator>
+        <title>jQuery UI逆引きリファレンス</title>
+        <link>http://www.buildinsider.net/web/jqueryuiref</link>
+        <description>jQuery UIの基本機能を目的別リファレンスの形式でまとめた連載記事です。</description>
+    </item>
+    <item rdf:about="http://codezine.jp/article/corner/486">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-06-06T00:00:00+09:00</dc:date>
+        <dc:creator>高江賢</dc:creator>
+        <title>Web APIで楽々Androidアプリ</title>
+        <link>http://codezine.jp/article/corner/486</link>
+        <description>多種多様なWeb APIの紹介と、そのAPIを利用したサンプルアプリの制作を通じて、Androidアプリの実践的な開発を解説します。</description>
+    </item>
+    <item rdf:about="http://codezine.jp/article/corner/484">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-05-27T00:00:00+09:00</dc:date>
+        <dc:creator>高野将</dc:creator>
+        <title>実例で学ぶASP.NET 4.5 Webフォーム</title>
+        <link>http://codezine.jp/article/corner/484</link>
+        <description>Webフォームの新機能について、実際の活用例をサンプルとともに紹介します。</description>
+    </item>
+    <item rdf:about="http://www.atmarkit.co.jp/ait/articles/1303/08/news072.html">
+        <dc:format>text/html</dc:format>
+        <dc:date>2013-03-08T00:00:00+09:00</dc:date>
+        <dc:creator>花田善仁</dc:creator>
+        <title>ASP.NET 4.5新機能概説</title>
+        <link>http://www.atmarkit.co.jp/ait/articles/1303/08/news072.html</link>
+        <description>ASP.NET 4.5も含めて、新機能や改善された機能を解説します。</description>
+    </item>
+    <item rdf:about="http://thinkit.co.jp/book/2012/05/18/3548">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-05-18T00:00:00+09:00</dc:date>
+        <dc:creator>山田祥寛</dc:creator>
+        <title>HTML5の便利なTips100選</title>
+        <link>http://thinkit.co.jp/book/2012/05/18/3548</link>
+        <description>HTML5の基本的なテクニックをTIPS形式でまとめた記事です。</description>
+    </item>
+    <item rdf:about="http://thinkit.co.jp/book/2012/04/17/3517">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-04-17T00:00:00+09:00</dc:date>
+        <dc:creator>飯島聡</dc:creator>
+        <title>今さら聞けないHTML5総おさらい</title>
+        <link>http://thinkit.co.jp/book/2012/04/17/3517</link>
+        <description>HTML5について、従来との機能の違いや、新たに使えるようになった便利な機能などについて、解説していきます。</description>
+    </item>
+    <item rdf:about="http://thinkit.co.jp/book/2012/04/12/3514">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-04-12T00:00:00+09:00</dc:date>
+        <dc:creator>土井毅</dc:creator>
+        <title>HTML5とあわせて知りたい周辺技術</title>
+        <link>http://thinkit.co.jp/book/2012/04/12/3514</link>
+        <description>CSS3とSVGに注目して、HTML5の周辺技術を紹介します。</description>
+    </item>
+    <item rdf:about="http://www.atmarkit.co.jp/ait/subtop/features/dotnet/app/jqmobile_index.html">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-01-20T00:00:00+09:00</dc:date>
+        <dc:creator>山田祥寛</dc:creator>
+        <title>jQuery Mobile入門</title>
+        <link>http://www.atmarkit.co.jp/ait/subtop/features/dotnet/app/jqmobile_index.html</link>
+        <description>スマートフォン対応のフレームワーク／ライブラリであるjQuery Mobileの使い方を解説します。</description>
+    </item>
+</rdf:RDF>

@@ -1,0 +1,31 @@
+/* @mixinでテンプレートとして使う */
+@mixin border-radius($size) {
+  -moz-border-radius: $size;
+  -webkit-border-radius: $size;
+  -o-border-radius: $size;
+  border-radius: $size;
+}
+@mixin size($width,$height) {
+  width: $width;
+  height: $height;
+}
+/* 定義した@mixinの利用 */
+button {
+  @include size(200px,60px);
+  @include border-radius(10px);
+}
+/* 入れ子の指定 */
+h1{
+  border-bottom: 3px solid #666666;
+  .title{
+    border-left: 1em solid #666666;
+    padding-left: 10px;
+  }
+}
+/* 繰り返し処理 */
+@for $i from 1 through 20 {
+  .size_#{!i}{
+    font-size: #{!i}px * 5;
+    border-bottom: #{!i}px solid #666666;
+  }
+}

@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+/* サンプルに使うCSSファイル */
+#sample{
+  padding-left: 0;padding-right: 0;background-color: #CCCCCC;
+}
+#sample1,#sample2{
+  background-color: #AAAAAA;
+}

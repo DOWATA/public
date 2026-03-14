@@ -1,0 +1,5 @@
+{
+    "require": {
+        "messaged/php-mime-mail-parser": "v1.0.4"
+    }
+}

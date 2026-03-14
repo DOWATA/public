@@ -1,0 +1,89 @@
+O:9:"MagpieRSS":21:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:15:{i:0;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2067";s:5:"title";s:89:"「デジタルアドバンテージ Build Insider（ビューの基本）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2067		";s:11:"description";s:165:"
+			書籍からの転載です。
+Railsプログラミングの最大の特徴は「MVC」です。Controllerの次はViewの基本をマスターしましょう。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-05-07T00:00:00+09:00";}s:7:"summary";s:165:"
+			書籍からの転載です。
+Railsプログラミングの最大の特徴は「MVC」です。Controllerの次はViewの基本をマスターしましょう。";}i:1;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2068";s:5:"title";s:126:"「翔泳社 CodeZine（デザインサンプルで学ぶCSSによるスタイリング〜「リスト」編）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2068		";s:11:"description";s:253:"
+			CSSでリストをスタイリングする方法を紹介します。リストマーカーのスタイリングをはじめ、リストを横並びに配置する方法など、実務でよく使われるテクニックを中心に紹介します。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-05-07T00:00:00+09:00";}s:7:"summary";s:253:"
+			CSSでリストをスタイリングする方法を紹介します。リストマーカーのスタイリングをはじめ、リストを横並びに配置する方法など、実務でよく使われるテクニックを中心に紹介します。";}i:2;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2066";s:5:"title";s:98:"「デジタルアドバンテージ Build Insider（コントローラの基本）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2066		";s:11:"description";s:173:"
+			書籍からの転載です。
+Railsプログラミングの基点は、MVCのControllerクラスです。ここから具体的なコードを記述していきます。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-30T00:00:00+09:00";}s:7:"summary";s:173:"
+			書籍からの転載です。
+Railsプログラミングの基点は、MVCのControllerクラスです。ここから具体的なコードを記述していきます。";}i:3;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2062";s:5:"title";s:151:"「翔泳社 CodeZine（業務でAmazon Web Services（AWS）を使い始める前に知っておきたいクラウドの基本のキ）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2062		";s:11:"description";s:245:"
+			本連載では、Amazon Web Servicesを使ってクラウドシステム上に簡単なWebシステムを構築していきます。初回は、インフラ構築の観点からクラウドとはどのようなものかを説明します。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-25T00:00:00+09:00";}s:7:"summary";s:245:"
+			本連載では、Amazon Web Servicesを使ってクラウドシステム上に簡単なWebシステムを構築していきます。初回は、インフラ構築の観点からクラウドとはどのようなものかを説明します。";}i:4;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2063";s:5:"title";s:199:"「翔泳社 CodeZine（Azureのアップデート：Webサイト、仮想マシン、Mobile Services、通知ハブ、ストレージ、VNets、スケジューラ、AutoScaleなど）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2063		";s:11:"description";s:364:"
+			本稿は、Scott Guthrie氏のブログを、氏の許可を得て翻訳、転載したものです。
+Webサイト、仮想マシン、仮想ネットワーク、Mobile Services、通知ハブ、Autoscale、ストレージ、Active Directoryプレミアム、スケジューラサービス、Automationなど、Azureの新機能について概説します。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-25T00:00:00+09:00";}s:7:"summary";s:364:"
+			本稿は、Scott Guthrie氏のブログを、氏の許可を得て翻訳、転載したものです。
+Webサイト、仮想マシン、仮想ネットワーク、Mobile Services、通知ハブ、Autoscale、ストレージ、Active Directoryプレミアム、スケジューラサービス、Automationなど、Azureの新機能について概説します。";}i:5;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2064";s:5:"title";s:161:"「翔泳社 CodeZine（WebアプリケーションにリッチUIをもたらす高機能JavaScriptライブラリ「Wijmo」（ウィジモ））」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2064		";s:11:"description";s:346:"
+			本連載では、グレープシティが提供するJavaScriptライブラリ「Wijmo（ウィジモ）」について紹介します。初回は、Wijmoが実現する機能の概要やライセンス形態などを説明します。また、Wijmoを用いてリッチなUIをシンプルな実装で実現する一例を紹介します。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-25T00:00:00+09:00";}s:7:"summary";s:346:"
+			本連載では、グレープシティが提供するJavaScriptライブラリ「Wijmo（ウィジモ）」について紹介します。初回は、Wijmoが実現する機能の概要やライセンス形態などを説明します。また、Wijmoを用いてリッチなUIをシンプルな実装で実現する一例を紹介します。";}i:6;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2065";s:5:"title";s:119:"「デジタルアドバンテージ Build Insider（Ruby on Rails 4アプリケーションの作成）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2065		";s:11:"description";s:169:"
+			書籍からの転載です。
+スケルトンコードの生成から、Webサーバー上で実際にRailsアプリを動かすところまでを説明します。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-25T00:00:00+09:00";}s:7:"summary";s:169:"
+			書籍からの転載です。
+スケルトンコードの生成から、Webサーバー上で実際にRailsアプリを動かすところまでを説明します。";}i:7;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2058";s:5:"title";s:151:"「デジタルアドバンテージ Build Insider（Collapsibleウィジェットで開閉可能なパネルを作成するには？）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2058		";s:11:"description";s:231:"
+			タイトル領域をクリックすることでコンテンツ本体の表示／非表示を切り替えられる「開閉可能パネル」を、Collapsibleウィジェットで簡単に作成する方法を解説します。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-24T00:00:00+09:00";}s:7:"summary";s:231:"
+			タイトル領域をクリックすることでコンテンツ本体の表示／非表示を切り替えられる「開閉可能パネル」を、Collapsibleウィジェットで簡単に作成する方法を解説します。";}i:8;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2059";s:5:"title";s:131:"「日経BP社 ITPro（即効！Officeを操る実用技［外部アプリ連携］PowerShellからExcelを操作）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2059		";s:11:"description";s:196:"
+			PowerShellとExcelの連携例として、「WSHスクリプトからExcelを操作する」で作成した英単語テストアプリを、PowerShellでのそれに置き換えてみます。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-24T00:00:00+09:00";}s:7:"summary";s:196:"
+			PowerShellとExcelの連携例として、「WSHスクリプトからExcelを操作する」で作成した英単語テストアプリを、PowerShellでのそれに置き換えてみます。";}i:9;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2060";s:5:"title";s:110:"「日経BP社 日経ソフトウエア2014年6月号（特集1 HTML5&JavaScript徹底攻略）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2060		";s:11:"description";s:198:"
+			「Part1 HTML5時代のJavaScript入門」と「Part2 おすすめJavaScriptライブラリ」を担当しています。JavaScriptの基礎や、定番ライブラリを紹介しています。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-24T00:00:00+09:00";}s:7:"summary";s:198:"
+			「Part1 HTML5時代のJavaScript入門」と「Part2 おすすめJavaScriptライブラリ」を担当しています。JavaScriptの基礎や、定番ライブラリを紹介しています。";}i:10;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2057";s:5:"title";s:144:"「日経BP社 ITPro（即効！Officeを操る実用技［外部アプリ連携］.NET FrameworkでExcelアドインを開発）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2057		";s:11:"description";s:370:"
+			Excel-DNAとは、ひと言でいえば、.NET Frameworkでアドインを開発するためのライブラリです。Visual BasicやC＃などの言語を利用できるだけでなく、.NET Frameworkが提供する豊富なクラスライブラリを活用できる、開発環境としてVisual Studioも利用できる、というメリットがあります。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-23T00:00:00+09:00";}s:7:"summary";s:370:"
+			Excel-DNAとは、ひと言でいえば、.NET Frameworkでアドインを開発するためのライブラリです。Visual BasicやC＃などの言語を利用できるだけでなく、.NET Frameworkが提供する豊富なクラスライブラリを活用できる、開発環境としてVisual Studioも利用できる、というメリットがあります。";}i:11;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2056";s:5:"title";s:145:"「日経BP社 ITPro（即効！Officeを操る実用技［外部アプリ連携］WSHスクリプトからExcelを操作する）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2056		";s:11:"description";s:242:"
+			WSHからもExcelの機能を呼び出せます。作業に際して必要なデータは、スクリプトにハードコーディングしても構いませんが、Excelを利用することでメンテナンス性も高まります。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-22T00:00:00+09:00";}s:7:"summary";s:242:"
+			WSHからもExcelの機能を呼び出せます。作業に際して必要なデータは、スクリプトにハードコーディングしても構いませんが、Excelを利用することでメンテナンス性も高まります。";}i:12;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2054";s:5:"title";s:112:"「デジタルアドバンテージ Build Insider（Railsを利用するための環境設定）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2054		";s:11:"description";s:253:"
+			書籍からの転載です。
+Railsプログラミングに必要なソフトウェアを紹介します。WindowsおよびLinuxにおける環境設定の手順や、SQLite／DevKit／Node.js／Railsのインストール方法を説明します。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-21T00:00:00+09:00";}s:7:"summary";s:253:"
+			書籍からの転載です。
+Railsプログラミングに必要なソフトウェアを紹介します。WindowsおよびLinuxにおける環境設定の手順や、SQLite／DevKit／Node.js／Railsのインストール方法を説明します。";}i:13;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2055";s:5:"title";s:147:"「日経BP社 ITPro（即効！Officeを操る実用技［外部アプリ連携］JavaアプリからOfficeファイルを操作）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2055		";s:11:"description";s:196:"
+			Apache POIは、Excelのみならず、Word、PowerPoint、Outlook、Visio、Publisherなどなど、Office製品全般をJavaアプリから操作できる高機能なライブラリです。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-21T00:00:00+09:00";}s:7:"summary";s:196:"
+			Apache POIは、Excelのみならず、Word、PowerPoint、Outlook、Visio、Publisherなどなど、Office製品全般をJavaアプリから操作できる高機能なライブラリです。";}i:14;a:7:{s:5:"about";s:45:"http://www.wings.msn.to/out.php?c=rss&id=2052";s:5:"title";s:100:"「翔泳社 CodeZine（「ASP.NET Identity」の登場背景と実際の使い方）」記事掲載";s:4:"link";s:51:"
+			http://www.wings.msn.to/out.php?c=rss&id=2052		";s:11:"description";s:221:"
+			ASP.NET Identityとは何かについてお話します。その後、Visual Studio 2013に組み込まれたテンプレートを用いてプログラムを作成し、実際に動作を確かめてみましょう。";s:8:"category";s:30:"
+			雑誌・サイト記事		";s:2:"dc";a:1:{s:4:"date";s:25:"2014-04-18T00:00:00+09:00";}s:7:"summary";s:221:"
+			ASP.NET Identityとは何かについてお話します。その後、Visual Studio 2013に組み込まれたテンプレートを用いてプログラムを作成し、実際に動作を確かめてみましょう。";}}s:7:"channel";a:6:{s:5:"title";s:44:"サーバサイド技術の学び舎 - WINGS";s:11:"description";s:107:"サーバサイド技術（JSP/サーブレット、ASP.NET、PHP、XML）に関する最新情報を提供";s:4:"link";s:24:"http://www.wings.msn.to/";s:5:"items";s:7:"
+			
+		";s:9:"items_seq";s:34:"
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			";s:7:"tagline";s:107:"サーバサイド技術（JSP/サーブレット、ASP.NET、PHP、XML）に関する最新情報を提供";}s:9:"textinput";a:0:{}s:5:"image";a:3:{s:5:"title";s:44:"サーバサイド技術の学び舎 - WINGS";s:3:"url";s:39:"http://www.wings.msn.to/image/wings.jpg";s:4:"link";s:24:"http://www.wings.msn.to/";}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"1.0";s:8:"encoding";s:5:"UTF-8";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:17:"current_namespace";b:0;}

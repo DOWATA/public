@@ -1,0 +1,46 @@
+[
+    {
+        "name": "evernote/evernote",
+        "version": "1.23.3",
+        "version_normalized": "1.23.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/evernote/evernote-sdk-php.git",
+            "reference": "9b9a0dd531b3f2bf56755a914f064da75e73209f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/evernote/evernote-sdk-php/zipball/9b9a0dd531b3f2bf56755a914f064da75e73209f",
+            "reference": "9b9a0dd531b3f2bf56755a914f064da75e73209f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2013-04-12 17:57:10",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache"
+        ],
+        "authors": [
+            {
+                "name": "Evernote and contributors",
+                "homepage": "https://github.com/evernote/evernote-sdk-php/contributors"
+            }
+        ],
+        "description": "Evernote PHP SDK",
+        "homepage": "https://github.com/evernote/evernote-sdk-php",
+        "keywords": [
+            "api",
+            "evernote",
+            "sdk"
+        ]
+    }
+]

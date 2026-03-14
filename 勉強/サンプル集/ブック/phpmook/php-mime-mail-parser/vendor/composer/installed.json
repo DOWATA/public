@@ -1,0 +1,55 @@
+[
+    {
+        "name": "messaged/php-mime-mail-parser",
+        "version": "v1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/message/php-mime-mail-parser.git",
+            "reference": "28e1347af4c666e9973310507b853a8c01466742"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/message/php-mime-mail-parser/zipball/28e1347af4c666e9973310507b853a8c01466742",
+            "reference": "28e1347af4c666e9973310507b853a8c01466742",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mailparse": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.3"
+        },
+        "time": "2014-04-25 13:45:08",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "MimeMailParser": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "CC BY-SA 3.0"
+        ],
+        "authors": [
+            {
+                "name": "Gabe",
+                "email": "gabe@fijiwebdesign.com",
+                "homepage": "http://www.fijiwebdesign.com/"
+            },
+            {
+                "name": "Dmitry Polovka",
+                "email": "messaged@messaged.lv",
+                "homepage": "http://messaged.lv"
+            }
+        ],
+        "description": "Mailparse extension wrapper for PHP 5.3+",
+        "homepage": "http://github.com/message/php-mime-mail-parser",
+        "keywords": [
+            "MimeMailParser",
+            "mail",
+            "mailparse",
+            "mime"
+        ]
+    }
+]

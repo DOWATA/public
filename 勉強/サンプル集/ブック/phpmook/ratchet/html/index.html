@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<title>Websocket Chat</title>
+<style>
+li{
+  clear: both;
+  border: 1px solid #666666;
+  padding: 0.5em;
+  width: 200px;
+  margin-top: 5px;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+}
+li.send{
+  float: left;
+}
+li.recv{
+  float: right;
+}
+</style>
+</head>
+<script type="text/javascript">
+function client_start(){
+	// (1) WebSocketのオープン
+  var sock = new WebSocket('ws://' + window.location.hostname + ':8888');
+  // (2) メッセージの受信処理
+  sock.onmessage = function(e){
+    var msg = JSON.parse(e.data);
+    var $li = $('<li></li>').addClass(msg.type).text(msg.message);
+    $('ol#list').append($li);
+  }
+  return sock;
+};
+
+$(function(){
+	var sock = client_start();
+	$('button#send').click(function(){
+		var message = $('input#msg').val();
+		if(message){
+			// (3) メッセージの送信処理
+			sock.send(message);
+			$('input#msg').val("");
+		}
+	});
+});
+</script>
+<body>
+<div>
+  <input id="msg" type="text" name="message" value="">
+  <button id="send">送信</button>
+  <hr />
+  <div>
+    <!-- 以下にメッセージを表示する -->
+    <ol id="list">
+    </ol>
+  </div>
+</div>
+</body>
+</html>
