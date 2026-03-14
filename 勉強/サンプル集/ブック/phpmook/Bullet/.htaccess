@@ -1,0 +1,9 @@
+# Rewrite モジュールの有効化
+RewriteEngine On
+#  アプリケーションのルートの URL
+RewriteBase /Path/to
+#  リクエストされたディレクトリ、ファイルが存在すれば書き換えない
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+#  存在しないファイルのすべてのリクエストを index.php で処理する
+RewriteRule ^(.*)$ index.php?u=$1 [L,QSA]

@@ -1,0 +1,14 @@
+# 存在しないファイルの検索抑制
+Options -MultiViews
+
+# Rewriteモジュールの有効化
+RewriteEngine On
+
+# アプリケーションのルートのURL
+RewriteBase /phpmook/Silex/
+
+# リクエストされたファイルが存在すれば書き換えない
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# 存在しないファイルのすべてのリクエストをindex.phpで処理する
+RewriteRule ^ index.php [L]

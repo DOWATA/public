@@ -1,0 +1,14 @@
+{% extends 'inheritance-base.html' %}
+
+{% block header %}
+<h1>継承のサンプルです</h1>
+{% endblock header %}
+
+{% block body %}
+<ul>
+	<li>チーム　:　本拠地</li>
+	{% for k,v in elements %}
+	<li>{{ k }}　:　{{ v }}</li>
+	{% endfor %}
+</ul>
+{% endblock body %}
