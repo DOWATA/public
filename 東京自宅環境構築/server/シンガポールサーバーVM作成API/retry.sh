@@ -36,30 +36,37 @@ while true; do
   DURATION=$SECONDS
   echo "⏱  処理応答時間: ${DURATION}秒"
 
-  # 判定ロジックの整理版
-  if [[ $RESULT == *"ocid1.instance"* ]]; then
-    echo "🎉 成功しました！"
-    echo "$RESULT"
-    break
-  elif [[ $RESULT == *"Out of capacity"* ]] || [[ $RESULT == *"Out of host capacity"* ]]; then
-    echo "【在庫なし】リソース不足のため再試行します（3分待機）"
-    sleep 180
-  elif [[ $RESULT == *"timed out"* ]] || [[ $RESULT == *"InternalError"* ]]; then
-    echo "【内部エラー/タイムアウト】OCI側の不調です。5分休みます..."
-    echo "詳細: $(echo "$RESULT" | head -n 1)"
-    sleep 300
-  elif [[ $RESULT == *"TooManyRequests"* ]]; then
-    echo "【制限中】リクエスト過多。5分休みます..."
-    sleep 300
-  elif [[ $RESULT == *"LimitExceeded"* ]]; then
-    echo "【制限超過】既に作成済みか無料枠上限です。終了します。"
-    echo "$RESULT"
-    break
-  else
-    echo "【未知のエラー】内容を確認してください。10分後に再試行します..."
-    echo "$RESULT"
-    sleep 600
-  fi
+  # 判定ロジック
+  case "$RESULT" in
+    *"ocid1.instance"* )
+      echo "🎉 成功しました！"
+      echo "$RESULT"
+      break
+      ;;
+    *"Out of capacity"* | *"Out of host capacity"* )
+      echo "【在庫なし】リソース不足のため再試行します（3分待機）"
+      sleep 180
+      ;;
+    *"timed out"* | *"InternalError"* )
+      echo "【内部エラー/タイムアウト】OCI側の不調です。5分休みます..."
+      echo "詳細: $(echo "$RESULT" | head -n 1)"
+      sleep 300
+      ;;
+    *"TooManyRequests"* )
+      echo "【制限中】リクエスト過多。5分休みます..."
+      sleep 300
+      ;;
+    *"LimitExceeded"* )
+      echo "【制限超過】既に作成済みか無料枠上限です。終了します。"
+      echo "$RESULT"
+      break
+      ;;
+    * )
+      echo "【未知のエラー】内容を確認してください。10分後に再試行します..."
+      echo "$RESULT"
+      sleep 600
+      ;;
+  esac
 
 
 done
